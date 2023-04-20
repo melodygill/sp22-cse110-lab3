@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://melodygill.github.io/Lab2_Starter/
+# Lab 3
+https://melodygill.github.io/sp23-cse110-lab3/
