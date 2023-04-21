@@ -1,0 +1,16 @@
+/* CSS for index.html */
+body {
+    background-color: coral;
+}
+
+#agenda {
+    background-color: #00ffff;
+}
+
+header {
+    background-color: rgb(71, 154, 154);
+}
+
+#heading {
+    color: hsl(320, 100%, 95%);
+}
