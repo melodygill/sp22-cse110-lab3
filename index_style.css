@@ -1,10 +1,15 @@
 /* CSS for index.html */
 body {
-    background-color: coral;
+    background-color: rgb(238, 224, 234);
 }
 
 #agenda {
-    background-color: #00ffff;
+    background-color: #928ecc;
+
+    padding-top: 0.25cm;
+    padding-bottom: 0.25cm;
+    padding-left: 0.5in;
+    padding-right: 0.5in;
 }
 
 header {
@@ -13,4 +18,25 @@ header {
 
 #heading {
     color: hsl(320, 100%, 95%);
+}
+
+.attendance {
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 5%;
+
+    margin-top: 3ex;
+    margin-bottom: 3ex;
+    margin-left: 10ex;
+    margin-right: 10ex;
+}
+
+h1 {
+    margin: 2mm 2mm 4mm 4mm;
+    padding: 1rem 1rem 0.5rem 0.5rem;
+}
+
+h2 {
+    margin: auto;
 }
