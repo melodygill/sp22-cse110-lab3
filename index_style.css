@@ -20,6 +20,7 @@ header {
     color: hsl(320, 100%, 95%);
 }
 
+/* Add spacing and border around attendance box */
 .attendance {
     border-style: solid;
     border-color: white;
@@ -50,4 +51,23 @@ video {
     position: sticky;
     max-width: 100%;
     min-width: 40%;
+}
+
+/* Style flexbox for main meeting notes */
+
+#main-meeting {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.flex-child {
+    border: 1px solid black;
+    padding: 4px 4px 4px 4px;
+    background-color: azure;
+
+    flex-grow: 1;
+    flex-shrink: 3;
+    align-self: auto;
 }
