@@ -71,3 +71,15 @@ video {
     flex-shrink: 3;
     align-self: auto;
 }
+
+#grid {
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5%;
+    grid-template-rows: 1fr;
+    justify-content: start;
+}
+
+.grid-child {
+    justify-self: center;
+    align-self: center;
+}
