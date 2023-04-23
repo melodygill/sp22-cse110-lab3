@@ -12,6 +12,18 @@ body {
     padding-right: 0.5in;
 }
 
+@media (min-width: 35rem) {
+    #agenda {
+        background-color: rgb(172, 246, 174);
+    }
+}
+
+@media (max-width: 50rem) {
+    #agenda {
+        background-color: rgb(155, 210, 255);
+    }
+}
+
 header {
     background-color: rgb(71, 154, 154);
 }
