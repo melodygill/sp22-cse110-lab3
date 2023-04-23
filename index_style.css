@@ -1,4 +1,9 @@
 /* CSS for index.html */
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     background-color: rgb(238, 224, 234);
 }
@@ -94,4 +99,10 @@ video {
 .grid-child {
     justify-self: center;
     align-self: center;
+}
+
+#main-meeting-text {
+    color:rgb(50, 27, 27);
+    text-decoration: underline dotted;
+    text-align: center;
 }
