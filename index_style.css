@@ -1,6 +1,6 @@
 /* CSS for index.html */
 
-html {
+* {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -17,6 +17,7 @@ body {
     padding-right: 0.5in;
 }
 
+/* Change background of agenda box depending on width of window */
 @media (min-width: 35rem) {
     #agenda {
         background-color: rgb(172, 246, 174);
@@ -63,7 +64,7 @@ h2 {
     display: inline-block;
 }
 
-video {
+video, audio {
     display: inline;
     position: sticky;
     max-width: 100%;
@@ -71,7 +72,6 @@ video {
 }
 
 /* Style flexbox for main meeting notes */
-
 #main-meeting {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +89,7 @@ video {
     align-self: auto;
 }
 
+/* Style grid for PEACH radio buttons */
 #grid {
     display: grid;
     grid-template-columns: 5% 5% 5% 5% 5%;
@@ -101,8 +102,41 @@ video {
     align-self: center;
 }
 
+label.grid-child {
+    color: purple;
+}
+
 #main-meeting-text {
     color:rgb(50, 27, 27);
     text-decoration: underline dotted;
     text-align: center;
+}
+
+a[href="bowser.jpg"] {
+    color: rgb(97, 9, 114);
+}
+
+/* Add styling for specific events */
+img:hover {
+    width: max-content;
+}
+
+button:active {
+    background-color: red;
+}
+
+form p {
+    color:rgb(212, 3, 174);
+}
+
+ol li {
+    color:darkorchid;
+}
+
+summary ~ p {
+    text-decoration: underline dotted;
+}
+
+h1 + h2 {
+    text-decoration: underline wavy;
 }
