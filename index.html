@@ -15,6 +15,7 @@
     <h1>Bowser's Council Meeting Minutes</h1>
     <h2>Scheme brainstorming</h2>
     <h2>4/12/23</h2>
+    <br>
 
     <img src="bowser.jpg" alt="Bowser" width="400">
 
@@ -61,25 +62,22 @@
       </ul>
     </div>
 
-    <p>Main meeting</p>
-    <ul>
-      <li>
-        <details>
-          <summary>Bowser's song ideas</summary>
-          <p>Very exhaustive brainstorming session where Bowser created and discarded ~15 drafts of his song for Peach</p>
-        </details>
-      </li>
-      <li>Audio recording <br> 
-        <audio controls>
-          <source src="sample-15s.mp3" type="audio/mpeg">
-        </audio>
-      </li>
-      <li>Video recording <br> 
-        <video controls width="400">
-          <source src="sample-10s.mp4" type="audio/mpeg">
-        </video>
-      </li>
-    </ul>
+    <section id="main-meeting">
+      <p class="flex-child">Main meeting</p>
+      
+      <details class="flex-child">
+        <summary>Bowser's song ideas</summary>
+        <p>Very exhaustive brainstorming session where Bowser created and discarded ~15 drafts of his song for Peach</p>
+      </details>
+      
+      <audio controls class="flex-child">
+        <source src="sample-15s.mp3" type="audio/mpeg">
+      </audio>
+    
+      <video controls width="400" class="flex-child">
+        <source src="sample-10s.mp4" type="audio/mpeg">
+      </video>
+    </section>
 
     </main>
 
@@ -112,16 +110,28 @@
       </fieldset>
 
       <p>Letter that you will hold up at our next rally:</p>
-      <input type="radio" name="letter" value="P">
-      <label>P</label><br>
-      <input type="radio" name="letter" value="E">
-      <label>E</label><br>
-      <input type="radio" name="letter" value="A">
-      <label>A</label><br>
-      <input type="radio" name="letter" value="C">
-      <label>C</label><br>
-      <input type="radio" name="letter" value="H">
-      <label>H</label><br>
+      <div id="grid">
+        <div class="grid-child">
+          <input type="radio" name="letter" value="P">
+          <label>P</label><br>
+        </div>
+        <div class="grid-child">
+          <input type="radio" name="letter" value="E">
+          <label>E</label><br>
+        </div>
+        <div class="grid-child">
+          <input type="radio" name="letter" value="A">
+          <label>A</label><br>
+        </div>
+        <div class="grid-child">
+          <input type="radio" name="letter" value="C">
+          <label>C</label><br>
+        </div>
+        <div class="grid-child">
+          <input type="radio" name="letter" value="H">
+          <label>H</label><br>
+        </div>
+      </div>
 
       <p>Fill out your feedback below.</p>
       <textarea>Choose your comments wisely!</textarea>
