@@ -136,7 +136,3 @@ ol li {
 summary ~ p {
     text-decoration: underline dotted;
 }
-
-h1 + h2 {
-    text-decoration: underline wavy;
-}
